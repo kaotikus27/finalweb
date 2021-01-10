@@ -1,0 +1,44 @@
+{
+    "bike": [
+        {
+            "id":1,
+            "name":" Adventure Across Borders",
+            "price": 3500,
+            "imgName": "aa.png"
+        },
+        {
+            "id":2,
+            "name":"Raider 150fi",
+            "price": 999,
+            "imgName": "bb.png"
+        },
+        {
+            "id":3,
+            "name":"Smash disc",
+            "price": 1999,
+            "imgName": "cc.png"
+        }
+    ],
+
+    "merch":[
+        {
+            "id":4,
+            "name":"Protective-Motorcycle-Kneepad-Motocross",
+            "price": 1499,
+            "imgName": "a3.png"
+        },
+        {
+            "id":5,
+            "name":"Riding Tribe Motorcycle Gloves Leather Full",
+            "price": 4992,
+            "imgName": "a2.png"
+        },
+        {
+            "id":6,
+            "name":"DOT ZOMBIES HELMET",
+            "price": 1500,
+            "imgName": "a1.png"
+        }
+
+    ]
+}

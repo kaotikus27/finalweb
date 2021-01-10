@@ -1,0 +1,44 @@
+{
+    "bike": [
+        {
+            "id":1,
+            "name":"The New Beat Street (STD)",
+            "price": 200,
+            "imgName": "a.png"
+        },
+        {
+            "id":2,
+            "name":"The New Beat Fashion Sport (STD)",
+            "price": 999,
+            "imgName": "b.png"
+        },
+        {
+            "id":3,
+            "name":"The New BeAT Premium (ISS/CBS)",
+            "price": 1999,
+            "imgName": "c.png"
+        }
+    ],
+
+    "merch":[
+        {
+            "id":4,
+            "name":"Protective-Motorcycle-Kneepad-Motocross",
+            "price": 1499,
+            "imgName": "a3.png"
+        },
+        {
+            "id":5,
+            "name":"Riding Tribe Motorcycle Gloves Leather Full",
+            "price": 4992,
+            "imgName": "a2.png"
+        },
+        {
+            "id":6,
+            "name":"DOT ZOMBIES HELMET",
+            "price": 1500,
+            "imgName": "a1.png"
+        }
+
+    ]
+}

@@ -1,0 +1,44 @@
+{
+    "bike": [
+        {
+            "id":1,
+            "name":" Sniper 150",
+            "price": 3500,
+            "imgName": "aaa.png"
+        },
+        {
+            "id":2,
+            "name":"Nmax ABS",
+            "price": 999,
+            "imgName": "bbb.png"
+        },
+        {
+            "id":3,
+            "name":"Aerox 155",
+            "price": 1999,
+            "imgName": "ccc.png"
+        }
+    ],
+
+    "merch":[
+        {
+            "id":4,
+            "name":"Protective-Motorcycle-Kneepad-Motocross",
+            "price": 1499,
+            "imgName": "a3.png"
+        },
+        {
+            "id":5,
+            "name":"Riding Tribe Motorcycle Gloves Leather Full",
+            "price": 4992,
+            "imgName": "a2.png"
+        },
+        {
+            "id":6,
+            "name":"DOT ZOMBIES HELMET",
+            "price": 1500,
+            "imgName": "a1.png"
+        }
+
+    ]
+}
