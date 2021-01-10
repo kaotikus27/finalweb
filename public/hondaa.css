@@ -1,0 +1,326 @@
+* ,*::before,
+*::after{
+    box-sizing: border-box;
+    font-family: poppins, sans-serif;
+    color: black;
+}
+
+
+html, body{
+    background-color: #d2d2d2d2;
+    margin:0;
+    padding: 0;
+}
+
+.nav ul{
+    margin: 0;
+}
+.brand-logo {
+    display: flex;
+    align-items: center;
+    font-size: 1.25em;
+    color: inherit;
+    text-decoration: none;
+}
+
+.brand-logo-name {
+    margin-left: 1rem;
+}
+.nav li{
+    display: inline;
+}
+.nav a {
+    display: inline-block;
+    padding: .5em;
+    text-decoration: none;
+}
+.nav a:hover,.main-footer-container a:hover{
+    color: adadad;
+}
+.main-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    padding-left: 10% ;
+    padding-right: 10%;
+}
+
+.main-nav {
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+}
+
+
+.main-section {
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    justify-content: space-between;
+    flex-grow: 1;
+    padding-left: 10% ;
+    padding-right: 10%;
+}
+
+.terms {
+    text-align: center;
+    padding-top: 50px;
+    padding-left: 10% ;
+    padding-right: 10%;
+}
+.term{
+    font-family: poppins, sans-serif;
+    font-size: 2.5em;
+    font-weight: 500;
+    
+}
+
+.the-honda-small {
+    padding-left: 100px;
+}
+
+.the-honda{
+    width: 300px;
+    height: 300px;
+}
+.main-footer .container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.main-footer ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.footer-nav a {
+    color: inherit;
+    text-decoration: none;
+    padding: 1rem;
+}
+.footer-nav a:hover {
+    color: adadad;
+}
+
+.main-footer{
+    padding-left:20% ;
+    padding-right: 20%;
+}
+.btn1 {
+    color: #FE4D4D;
+    background-color: #C4C4C4;
+    padding: .75rem 1.5rem;
+    margin: 1rem;
+    border-radius: 1rem;
+    text-decoration: none;
+    font-size: .9rem;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.btn1:hover{
+    color: #C4C4C4;
+    background-color: #FE4D4D;
+}
+
+.shop-item {
+    margin: 30px;
+}
+
+
+
+.shop-item-title{
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: bold;
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.shop-item-details {
+    display: flex;
+    align-items: center;
+    padding:5px;
+}
+
+.shop-item-price {
+    flex-grow:.1;
+    color: #333;
+}
+.shop-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.shop-item-image{
+    height: 350px;
+}
+
+.cart-header {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #333;
+}
+.cart-column{
+    display: flex;
+    align-items: center;
+    
+    margin-right: 1.5em;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.cart-row {
+    display: flex;
+}
+
+.cart-item{
+    width: 45%;
+}
+.cart-price{
+    width: 20%;
+    font-size: 1.2em;
+    color: #333;
+}
+.cart-quantity {
+    width: 35%;
+}
+
+.cart-item-title{
+    color: #333;
+    margin-left: .5em;
+    font-size: 1.2em;
+}
+.cart-item-image {
+    width: 75px;
+    height: auto;
+    border-radius: 10px;
+}
+.btn-danger{
+    color: white;
+    background-color: #FE4D4D;
+    border: none;
+    border-radius: .3em;
+    font-weight: lighter;
+}
+.btn-primary{
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: .3em;
+    font-weight: lighter;
+}
+.cart-quantity-input {
+    height: 45px;
+    width: 50px;
+    border-radius: 5px;
+    background-color: #eeeeee;
+    color:#333;
+    padding: 0;
+    text-align: center;
+    margin-right: 25px;
+    font-size: 1em;
+    
+}
+
+.cart-row:last-child {
+    border-bottom: 1px solid black;
+
+}
+
+.cart-row:last-child .cart-column{
+    border: none;
+}
+
+.cart-total{
+    margin-top: 10px;
+    margin-right: 10px;
+    text-align: end;
+}
+.cart-total-title{
+    font-weight: bold;
+    font-size: 1.5em;
+    color: black;
+    margin-right: 20px;
+    
+}
+.cart-total-price {
+    color: #333;
+    
+}
+.btn-purchase {
+    
+    font-size: 1.5em;
+}
+
+/* //THIS IS FO MODAL!!// */
+.modal-bg,
+.modal-bgg,
+.modal-bggg,
+.modal-bgggg,
+.modal-bggggg,
+.modal-bgggggg {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s;
+}
+
+.bg-active,
+.bg-activee,
+.bg-activeee,
+.bg-activeeee,
+.bg-activeeeee,
+.bg-activeeeeee {
+    visibility: visible;
+    opacity: 1;
+}
+
+.modal,
+.modall,
+.modalll,
+.modallll,
+.modalllll,
+.modallllll {
+    position: relative;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: white;
+    width: 300px;
+    height: 350px;
+    display: flex;
+    border-radius: 1.5rem;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.modal-close,
+.modal-closee,
+.modal-closeee,
+.modal-closeeee,
+.modal-closeeeee,
+.modal-closeeeeee {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}

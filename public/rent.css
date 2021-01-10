@@ -1,0 +1,71 @@
+.container a {
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+#boxes {
+    margin-top: 10px;
+}
+
+#boxes .box1,
+.box2,
+.box3 {
+    display: flex;
+    flex-direction: column;
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+#boxes .box1 img {
+    width: 415px;
+}
+
+footer {
+    padding: 20px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+@media (max-width:768px) {
+    .main-header {
+        display: flex;
+        flex-direction: column;
+    }
+    .main-footer {
+        display: flex;
+        flex-direction: column;
+    }
+    .fotter-nav {
+        margin: 0;
+        padding: 0;
+    }
+    .link img {
+        width: 1px;
+        margin-right: 1px;
+    }
+    .main-header .main-nav #branding {
+        margin-top: 1rem;
+    }
+    .container {
+        margin-top: 1rem;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    #boxes .box1,
+    .box2,
+    .box3 {
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+    #boxes .box1 img,
+    .box2 img,
+    .box3 img {
+        width: 300px;
+    }
+}

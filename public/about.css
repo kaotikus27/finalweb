@@ -1,0 +1,70 @@
+.main-section {
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+.main-section .the-crew {
+    width: 1000vh;
+    margin-left: 1rem;
+    height: auto;
+    max-width: 580px;
+}
+
+.main-section .title {
+    position: absolute;
+    top: 150px;
+    left: 750px;
+}
+
+@media (max-width:768px) {
+    main-footer {
+        display: flex;
+        flex-direction: column;
+    }
+    .fotter-nav {
+        margin: 0;
+        padding: 0;
+    }
+    .link img {
+        width: 1px;
+        margin-right: 1px;
+    }
+    .container {
+        margin-top: 1rem;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .main-header {
+        display: flex;
+        flex-direction: column;
+    }
+    .main-header .main-nav #branding {
+        margin-top: 1rem;
+    }
+    .the-crew {
+        display: none;
+    }
+    .main-section {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .the-crew-small {
+        background-image: url(images/crew.png);
+        flex-grow: 1;
+        height: 450px;
+        width: 784px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: bottom center;
+    }
+    .main-section .title {
+        margin-top: 3rem;
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+}

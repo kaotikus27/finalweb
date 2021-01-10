@@ -1,0 +1,130 @@
+.contact-main-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.worthy {
+    font-size: 3.5em;
+    font-weight: bold;
+    margin: 0;
+}
+
+.high-light {
+    color: #FE4D4D;
+}
+
+.join-form {
+    color: white;
+    background-color: #2C2929;
+    width: 30vw;
+    max-width: 50%;
+    padding: 2rem 4rem;
+    border-radius: 20px;
+}
+
+.input-group {
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-group:last-child {
+    margin-bottom: 0;
+}
+
+.input-group label {
+    font-weight: bold;
+    margin-bottom: .5rem;
+}
+
+.input-group input {
+    outline: none;
+    background: none;
+    border: 1px solid #C4C4C4;
+    font-size: 1em;
+    padding: .5em;
+    color: inherit;
+    border-radius: 5px;
+}
+
+.input-group input:focus {
+    border-color: #FE4D4D;
+}
+
+.c1 {
+    position: absolute;
+    width: 319.11px;
+    height: 319.11px;
+    border-radius: 50%;
+    background-color: rgba(237, 181, 247, 0.5);
+    bottom: 1rem;
+    left: 5rem;
+    z-index: -1;
+}
+
+.c2 {
+    position: absolute;
+    width: 202px;
+    height: 202px;
+    border-radius: 50%;
+    background-color: rgba(200, 190, 106, 1);
+    top: 309px;
+    left: 296px;
+    z-index: -1;
+}
+
+.c3 {
+    position: absolute;
+    width: 176px;
+    height: 176px;
+    border-radius: 50%;
+    background-color: rgba(172, 186, 132, 1);
+    bottom: 731px;
+    left: 832px;
+    z-index: -1;
+}
+
+.contact-main-section .btn1 {
+    text-align: center;
+}
+
+@media (max-width :768px) {
+    main-footer {
+        display: flex;
+        flex-direction: column;
+    }
+    .fotter-nav {
+        margin: 0;
+        padding: 0;
+    }
+    .link img {
+        width: 1px;
+        margin-right: 1px;
+    }
+    .container {
+        margin-top: 1rem;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .main-header {
+        display: flex;
+        flex-direction: column;
+    }
+    .main-header .main-nav #branding {
+        margin-top: 1rem;
+    }
+    .contact-main-section,
+    .main-nav #branding {
+        margin-top: 3rem;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .join-form {
+        width: 80vw;
+        max-width: inherit;
+        margin: 2rem 0;
+    }
+}

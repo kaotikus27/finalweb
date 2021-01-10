@@ -1,0 +1,137 @@
+.home-main-section {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+.home-main-section .img-wrapper {
+    flex-grow: 1;
+    flex-direction: column;
+    display: flex;
+    align-items: stretch;
+    justify-content: flex-end;
+}
+
+.home-main-section .motor-img {
+    background-image: url(images/1.png);
+    flex-grow: 1;
+    max-height: 70vh;
+    min-width: 30vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    filter: drop-shadow(0px 5px 3px);
+}
+
+.home-main-section .call-to-action {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 1rem;
+    align-self: center;
+}
+
+.c1 {
+    position: absolute;
+    width: 104px;
+    height: 104px;
+    border-radius: 50%;
+    background-color: rgba(155, 111, 171, 0.5);
+    bottom: 25vh;
+    left: 20vh;
+    z-index: -1;
+}
+
+.c2 {
+    position: absolute;
+    width: 303px;
+    height: 303px;
+    border-radius: 50%;
+    background-color: rgba(188, 149, 149, 0.5);
+    bottom: 35vh;
+    left: 29vh;
+    z-index: -1;
+}
+
+.c3 {
+    position: absolute;
+    width: 104px;
+    height: 104px;
+    border-radius: 50%;
+    background-color: rgba(102, 153, 71, 0.5);
+    bottom: 57vh;
+    left: 63vh;
+    z-index: -1;
+}
+
+.c4 {
+    position: absolute;
+    width: 176px;
+    height: 176px;
+    border-radius: 50%;
+    background-color: rgba(99, 34, 88, 0.5);
+    bottom: 40vh;
+    left: 78vh;
+    z-index: -1;
+}
+
+.c5 {
+    position: absolute;
+    width: 507px;
+    height: 507px;
+    border-radius: 50%;
+    background-color: rgba(161, 201, 189, 0.5);
+    bottom: 20vh;
+    right: 10vh;
+    z-index: -1;
+}
+
+@media (max-width: 768px) {
+    .main-header {
+        display: flex;
+        flex-direction: column;
+    }
+    .main-nav ul,
+    .main-nav li {
+        margin-top: 2px;
+    }
+    main-footer {
+        display: flex;
+        flex-direction: column;
+    }
+    .fotter-nav {
+        margin: 0;
+        padding: 0;
+    }
+    .link img {
+        width: 1px;
+        margin-right: 1px;
+    }
+    .container {
+        margin-top: 1rem;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .home-main-section .img-wrapper {
+        display: none;
+    }
+    .home-main-section {
+        justify-content: center;
+    }
+    .c4,
+    .c3 {
+        display: none;
+    }
+    .c2 {
+        position: absolute;
+        width: 303px;
+        height: 303px;
+        border-radius: 50%;
+        background-color: rgba(188, 149, 149, 0.5);
+        bottom: 35vh;
+        left: 18vh;
+        z-index: -1;
+    }
+}
